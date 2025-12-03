@@ -1,0 +1,213 @@
+[2025-12-04 01:10:30] [INFO ] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[2025-12-04 01:10:30] [INFO ] Utils - [TestNG] Running:
+  C:\Users\user\IdeaProjects\epam-ta-framework-hardcore\src\test\java\com\begimai\framework\tests\resources\regression.xml
+
+[2025-12-04 01:10:31] [INFO ] AddComputeEngineTest - ===== STARTING TEST: AddComputeEngineTest | browser=chrome =====
+[2025-12-04 01:10:32] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-12-04 01:10:32] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-12-04 01:10:35] [INFO ] GoogleCloudPricingService - Create Compute Engine estimate for config: ComputeEngineConfig{instances=4}
+[2025-12-04 01:10:35] [INFO ] GoogleCloudMainPage - Open URL: https://cloud.google.com/products/calculator
+[2025-12-04 01:10:37] [DEBUG] GoogleCloudMainPage - Click on element: <button> text='add
+Add to estimate'
+[2025-12-04 01:10:38] [DEBUG] ProductSelectionPage - Click on element: <div> text=''
+[2025-12-04 01:10:38] [DEBUG] ComputeEnginePage - Wait for visibility of element: <element>
+[2025-12-04 01:10:39] [DEBUG] ComputeEnginePage - Type '4' into element: <input> text=''
+[2025-12-04 01:10:39] [DEBUG] EstimatePanelPage - Wait for visibility of element: <div> text='person
+Already have a Google Cloud billing account?
+Link your account to use negotiated prices for estimate calculations
+Sign in
+Dismiss
+Compute Engine
+info
+--/ month
+Calculating changes...
+sync
+Service type
+Instances
+Instances configuration
+Advanced settings
+Specify usage time for each instance
+Number of instances*
+info
+remove
+add
+Total instance usage time*
+info
+remove
+add
+Changing Total instance usage amount will automatically calculate number of instances
+hours
+per month
+
+
+Operating System / Software
+Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
+info
+Provisioning Model
+info
+Regular
+Spot (Preemptible VM)
+Machine type*
+info
+Machine Family
+General Purpose
+Series
+N4
+Machine type
+n4-standard-2
+Number of vCPUs
+info
+2 vCPUs
+Amount of memory
+info
+8 GiB
+Machine Type
+Based on your selections
+n4-standard-2
+vCPUs: 2, RAM: 8 GiB
+Boot disk type
+info
+Hyperdisk Balanced
+Boot disk size (GiB)
+info
+remove
+add
+
+Add GPUs
+info
+
+GPUs are available for N1, A2, and G2 machine series
+Region
+Iowa (us-central1)
+Regional availability depends on the machine type and GPU selected.
+info
+Committed use discount options
+None
+info
+lock
+Sign in to view billing account pricing.
+Cost details
+settings
+USD
+arrow_drop_down
+add
+Add to estimate
+info
+Details of items added to your estimate are displayed in this panel
+ESTIMATED COST
+--
+/ mo
+plagiarism
+file_save
+note_add
+link
+Share'
+[2025-12-04 01:10:41] [INFO ] GoogleCloudPricingService - Estimate result: cardPresent=true, total=$268.04
+[2025-12-04 01:10:41] [ERROR] ScreenshotListener - Test 'userCanAddComputeEngineToEstimate' FAILED. Screenshot saved to: C:\Users\user\IdeaProjects\epam-ta-framework-hardcore\screenshots\userCanAddComputeEngineToEstimate_2025-12-04_01-10-41.png
+[2025-12-04 01:10:41] [INFO ] AddComputeEngineTest - ===== FINISHING TEST: AddComputeEngineTest =====
+[2025-12-04 01:11:42] [INFO ] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[2025-12-04 01:11:42] [INFO ] Utils - [TestNG] Running:
+  C:\Users\user\IdeaProjects\epam-ta-framework-hardcore\src\test\java\com\begimai\framework\tests\resources\regression.xml
+
+[2025-12-04 01:11:42] [INFO ] AddComputeEngineTest - ===== STARTING TEST: AddComputeEngineTest | browser=chrome =====
+[2025-12-04 01:11:43] [INFO ] WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+[2025-12-04 01:11:43] [INFO ] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\user\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+[2025-12-04 01:11:45] [INFO ] GoogleCloudPricingService - Create Compute Engine estimate for config: ComputeEngineConfig{instances=4}
+[2025-12-04 01:11:45] [INFO ] GoogleCloudMainPage - Open URL: https://cloud.google.com/products/calculator
+[2025-12-04 01:11:48] [DEBUG] GoogleCloudMainPage - Click on element: <button> text='add
+Add to estimate'
+[2025-12-04 01:11:48] [DEBUG] ProductSelectionPage - Click on element: <div> text=''
+[2025-12-04 01:11:49] [DEBUG] ComputeEnginePage - Wait for visibility of element: <element>
+[2025-12-04 01:11:49] [DEBUG] ComputeEnginePage - Type '4' into element: <input> text=''
+[2025-12-04 01:11:50] [DEBUG] EstimatePanelPage - Wait for visibility of element: <div> text='person
+Already have a Google Cloud billing account?
+Link your account to use negotiated prices for estimate calculations
+Sign in
+Dismiss
+Compute Engine
+info
+--/ month
+Calculating changes...
+sync
+Service type
+Instances
+Instances configuration
+Advanced settings
+Specify usage time for each instance
+Number of instances*
+info
+remove
+add
+Total instance usage time*
+info
+remove
+add
+Changing Total instance usage amount will automatically calculate number of instances
+hours
+per month
+
+
+Operating System / Software
+Free: Debian, CentOS, CoreOS, Ubuntu or BYOL (Bring Your Own License)
+info
+Provisioning Model
+info
+Regular
+Spot (Preemptible VM)
+Machine type*
+info
+Machine Family
+General Purpose
+Series
+N4
+Machine type
+n4-standard-2
+Number of vCPUs
+info
+2 vCPUs
+Amount of memory
+info
+8 GiB
+Machine Type
+Based on your selections
+n4-standard-2
+vCPUs: 2, RAM: 8 GiB
+Boot disk type
+info
+Hyperdisk Balanced
+Boot disk size (GiB)
+info
+remove
+add
+
+Add GPUs
+info
+
+GPUs are available for N1, A2, and G2 machine series
+Region
+Iowa (us-central1)
+Regional availability depends on the machine type and GPU selected.
+info
+Committed use discount options
+None
+info
+lock
+Sign in to view billing account pricing.
+Cost details
+settings
+USD
+arrow_drop_down
+add
+Add to estimate
+info
+Details of items added to your estimate are displayed in this panel
+ESTIMATED COST
+--
+/ mo
+plagiarism
+file_save
+note_add
+link
+Share'
+[2025-12-04 01:11:51] [INFO ] GoogleCloudPricingService - Estimate result: cardPresent=true, total=$268.04
+[2025-12-04 01:11:51] [INFO ] AddComputeEngineTest - ===== FINISHING TEST: AddComputeEngineTest =====

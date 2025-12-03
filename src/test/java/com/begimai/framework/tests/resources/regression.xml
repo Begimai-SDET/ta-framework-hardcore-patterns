@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="RegressionSuite" parallel="false">
+
+    <parameter name="browser" value="chrome"/>
+
+    <listeners>
+        <listener class-name="com.begimai.framework.core.listeners.ScreenshotListener"/>
+    </listeners>
+
+    <test name="RegressionTests">
+        <classes>
+            <class name="com.begimai.framework.tests.regression.AddComputeEngineTest"/>
+        </classes>
+    </test>
+</suite>
