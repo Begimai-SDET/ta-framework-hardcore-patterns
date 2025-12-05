@@ -8,7 +8,7 @@ public class ConfigTest {
 
     @Test
     public void checkBaseUrlFromConfig() {
-        String baseUrl = ConfigManager.get("base.url");
+        String baseUrl = ConfigManager.getInstance().get("base.url");
         System.out.println("BASE URL = " + baseUrl);
         Assert.assertNotNull(baseUrl, "base.url must not be null");
     }

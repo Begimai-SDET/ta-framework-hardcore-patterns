@@ -8,12 +8,12 @@ import com.begimai.framework.pages.GoogleCloudMainPage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class GoogleCloudPricingService {
+public class GoogleCloudPricingService implements PricingService {
 
     private static final Logger log = LogManager.getLogger(GoogleCloudPricingService.class);
 
+    @Override
     public EstimateResult createComputeEngineEstimate(ComputeEngineConfig config) {
-
         log.info("Create Compute Engine estimate for config: {}", config);
 
         ComputeEnginePage computePage = new GoogleCloudMainPage()

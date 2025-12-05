@@ -8,32 +8,26 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverFactory {
 
-    public static WebDriver createDriver(String browser) {
-        WebDriver driver;
+    public static WebDriver createDriver(String browserName) {
+        if (browserName == null) {
+            browserName = "chrome";
+        }
 
-        switch (browser.toLowerCase()) {
+        switch (browserName.toLowerCase()) {
+            case "chrome":
+                WebDriverManager.chromedriver().setup();
+                return new ChromeDriver();
+
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
-                driver = new FirefoxDriver();
-                break;
+                return new FirefoxDriver();
 
             case "edge":
                 WebDriverManager.edgedriver().setup();
-                driver = new EdgeDriver();
-                break;
+                return new EdgeDriver();
 
-            case "chrome":
             default:
-                WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
-                break;
+                throw new IllegalArgumentException("Unsupported browser: " + browserName);
         }
-
-        driver.manage().window().maximize();
-        return driver;
-    }
-
-    public static WebDriver createDriver() {
-        return createDriver("chrome");
     }
 }

@@ -13,7 +13,7 @@ public class GoogleCloudMainPage extends BasePage {
     private WebElement mainAddToEstimateButton;
 
     public GoogleCloudMainPage open() {
-        open(ConfigManager.get("base.url"));
+        open(ConfigManager.getInstance().get("base.url"));
         return this;
     }
 
